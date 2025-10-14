@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مغامرة تعلم HTML</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #eaeaea;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .example {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .fun-fact {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 مغامرة تعلم لغة HTML</h1>
+    
+    <div class="fun-fact">
+        <strong>حقيقة ممتعة:</strong> HTML ليست لغة برمجة بل هي لغة ترميز (Markup Language) تعني HyperText Markup Language
+    </div>
+    
+    <h2>🎯 الفصل الأول: ما هي HTML؟</h2>
+    <p>HTML هي الهيكل العظمي لأي موقع ويب. تخيل أنك تبني منزلاً:</p>
+    <ul>
+        <li>HTML = الهيكل (الجدران، الأساسات)</li>
+        <li>CSS = الديكور (الألوان، الأثاث)</li>
+        <li>JavaScript = الكهرباء والمحركات (التفاعل)</li>
+    </ul>
+    
+    <h2>🔧 الفصل الثاني: أدواتك الأساسية</h2>
+    <p>كل ما تحتاجه لبدء التعلم:</p>
+    <ol>
+        <li>محرر نصوص (مثل VS Code, Notepad++, Sublime Text)</li>
+        <li>متصفح ويب (Chrome, Firefox, Edge)</li>
+        <li>الرغبة في التعلم!</li>
+    </ol>
+    
+    <h2>📝 الفصل الثالث: هيكل HTML الأساسي</h2>
+    <div class="example">
+        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;عنوان صفحتي&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;مرحباً بالعالم!&lt;/h1&gt;
+    &lt;p&gt;هذه هي أول صفحة ويب لي.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code>
+    </div>
+    
+    <h3>شرح الهيكل:</h3>
+    <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code>: تخبر المتصفح أن هذه صفحة HTML5</li>
+        <li><code>&lt;html&gt;</code>: العنصر الجذر الذي يحيط بكل المحتوى</li>
+        <li><code>&lt;head&gt;</code>: يحتوي على معلومات عن الصفحة (لا تظهر للمستخدم)</li>
+        <li><code>&lt;body&gt;</code>: كل ما يظهر للمستخدم يكون داخل هذا العنصر</li>
+    </ul>
+    
+    <h2>🧩 الفصل الرابع: أهم العلامات (Tags)</h2>
+    
+    <h3>1. العناوين</h3>
+    <p>من <code>&lt;h1&gt;</code> (الأهم) إلى <code>&lt;h6&gt;</code> (الأقل أهمية)</p>
+    <div class="example">
+        <code>
+&lt;h1&gt;عنوان رئيسي&lt;/h1&gt;
+&lt;h2&gt;عنوان فرعي&lt;/h2&gt;
+&lt;h3&gt;عنوان أصغر&lt;/h3&gt;
+        </code>
+    </div>
+    
+    <h3>2. الفقرات والروابط</h3>
+    <div class="example">
+        <code>
+&lt;p&gt;هذه فقرة عادية تحتوي على نص.&lt;/p&gt;
+&lt;a href="https://www.example.com"&gt;هذا رابط&lt;/a&gt;
+        </code>
+    </div>
+    
+    <h3>3. الصور</h3>
+    <div class="example">
+        <code>
+&lt;img src="صورة.jpg" alt="وصف الصورة" width="200"&gt;
+        </code>
+    </div>
+    
+    <h3>4. القوائم</h3>
+    <div class="example">
+        <code>
+&lt;ul&gt;
+    &lt;li&gt;عنصر 1&lt;/li&gt;
+    &lt;li&gt;عنصر 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;عنصر 1&lt;/li&gt;
+    &lt;li&gt;عنصر 2&lt;/li&gt;
+&lt;/ol&gt;
+        </code>
+    </div>
+    
+    <h3>5. الجداول</h3>
+    <div class="example">
+        <code>
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;الاسم&lt;/th&gt;
+        &lt;th&gt;العمر&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;أحمد&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+        </code>
+    </div>
+    
+    <h2>🎨 الفصل الخامس: إضافة بعض الذوق!</h2>
+    <p>بينما نتعلم CSS لاحقاً، يمكننا إضافة بعض الأناقة مباشرة في HTML:</p>
+    <div class="example">
+        <code>
+&lt;div style="color: blue; font-size: 20px;"&gt;هذا النص أزرق وكبير&lt;/div&gt;
+        </code>
+    </div>
+    
+    <h2>🎉 الفصل السادس: مشروعك الأول</h2>
+    <p>لنقم ببناء صفحة ويب بسيطة عنك!</p>
+    <div class="example">
+        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;صفحتي الشخصية&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;مرحباً، أنا [اسمك]&lt;/h1&gt;
+    &lt;img src="صورتي.jpg" alt="صورتي الشخصية" width="150"&gt;
+    &lt;p&gt;أنا أحب [اهتماماتك].&lt;/p&gt;
+    &lt;h2&gt;مهاراتي:&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;HTML&lt;/li&gt;
+        &lt;li&gt;[أي مهارات أخرى]&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;a href="https://www.linkedin.com"&gt;زوروني على لينكدإن&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code>
+    </div>
+    
+    <div class="fun-fact">
+        <strong>تحدي:</strong> جرب تعديل الكود أعلاه وأضف معلومات عنك، ثم احفظ الملف بامتداد .html وافتحه في المتصفح!
+    </div>
+    
+    <h2>🔮 خاتمة: ما التالي؟</h2>
+    <p>الآن بعد أن تعلمت أساسيات HTML، يمكنك:</p>
+    <ol>
+        <li>تعلم CSS لتزيين صفحاتك</li>
+        <li>تعلم JavaScript لجعلها تفاعلية</li>
+        <li>بناء المزيد من الصفحات وربطها معاً لإنشاء موقع كامل</li>
+    </ol>
+    
+    <p>🎊 تهانينا! لقد أكملت دورة HTML المصغرة. استمر في الممارسة وستصبح محترفاً في وقت قصير!</p>
+    
+    <p>✍️ كُتب بواسطة مساعدك في تعلم البرمجة</p>
+</body>
+</html>
